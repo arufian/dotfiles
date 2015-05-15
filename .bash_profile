@@ -27,11 +27,3 @@ complete -W "NSGlobalDomain" defaults
 
 # path for global npm packages
 PATH=$PATH:"/usr/local/share/npm/bin"
-
-# list of aliases
-alias nw="/Applications/nwjs.app/Contents/MacOS/nwjs"
-alias show_connections="lsof -i"
-alias show_hiddenfiles="defaults write com.apple.finder AppleShowAllFiles YES"
-alias hide_hiddenfiles="defaults write com.apple.finder AppleShowAllFiles NO"
-alias empty_trash="rm -r ~/.Trash/*"
-alias kenyo="say -v Damayanti"

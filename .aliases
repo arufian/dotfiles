@@ -118,3 +118,19 @@ done
 alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume 10'"
 alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
+
+# nodewebkit
+alias nw="/Applications/nwjs.app/Contents/MacOS/nwjs"
+
+# show all tcp connections
+alias show_connections="lsof -i"
+
+# show/hide hidden files
+alias show_hiddenfiles="defaults write com.apple.finder AppleShowAllFiles YES"
+alias hide_hiddenfiles="defaults write com.apple.finder AppleShowAllFiles NO"
+
+# empty trash
+alias empty_trash="rm -r ~/.Trash/*"
+
+# say with Bahasa Indonesia
+alias kenyo="say -v Damayanti"
